@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2016_Nevada_license_plate_28front29_jpg.rf.d17d858686f1b3cd5015e5e835b8768f.jpg</filename>
+	<path>2016_Nevada_license_plate_28front29_jpg.rf.d17d858686f1b3cd5015e5e835b8768f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>2092</width>
+		<height>1104</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>87</xmin>
+			<xmax>2033</xmax>
+			<ymin>81</ymin>
+			<ymax>1031</ymax>
+		</bndbox>
+	</object>
+</annotation>

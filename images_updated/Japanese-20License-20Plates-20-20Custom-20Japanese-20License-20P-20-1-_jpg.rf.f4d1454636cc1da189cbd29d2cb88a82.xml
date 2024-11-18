@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Japanese-20License-20Plates-20-20Custom-20Japanese-20License-20P-20-1-_jpg.rf.f4d1454636cc1da189cbd29d2cb88a82.jpg</filename>
+	<path>Japanese-20License-20Plates-20-20Custom-20Japanese-20License-20P-20-1-_jpg.rf.f4d1454636cc1da189cbd29d2cb88a82.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>163</xmin>
+			<xmax>278</xmax>
+			<ymin>131</ymin>
+			<ymax>209</ymax>
+		</bndbox>
+	</object>
+</annotation>

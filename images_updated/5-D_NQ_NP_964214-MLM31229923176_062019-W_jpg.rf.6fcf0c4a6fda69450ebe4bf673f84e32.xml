@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>5-D_NQ_NP_964214-MLM31229923176_062019-W_jpg.rf.6fcf0c4a6fda69450ebe4bf673f84e32.jpg</filename>
+	<path>5-D_NQ_NP_964214-MLM31229923176_062019-W_jpg.rf.6fcf0c4a6fda69450ebe4bf673f84e32.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>568</width>
+		<height>426</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>76</xmin>
+			<xmax>542</xmax>
+			<ymin>110</ymin>
+			<ymax>356</ymax>
+		</bndbox>
+	</object>
+</annotation>

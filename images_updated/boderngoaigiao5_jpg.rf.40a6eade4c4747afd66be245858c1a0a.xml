@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>boderngoaigiao5_jpg.rf.40a6eade4c4747afd66be245858c1a0a.jpg</filename>
+	<path>boderngoaigiao5_jpg.rf.40a6eade4c4747afd66be245858c1a0a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>424</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>230</xmin>
+			<xmax>295</xmax>
+			<ymin>236</ymin>
+			<ymax>254</ymax>
+		</bndbox>
+	</object>
+</annotation>

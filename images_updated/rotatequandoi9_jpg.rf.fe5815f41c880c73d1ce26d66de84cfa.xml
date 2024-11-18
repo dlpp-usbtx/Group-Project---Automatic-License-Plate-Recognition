@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rotatequandoi9_jpg.rf.fe5815f41c880c73d1ce26d66de84cfa.jpg</filename>
+	<path>rotatequandoi9_jpg.rf.fe5815f41c880c73d1ce26d66de84cfa.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>700</width>
+		<height>525</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>564</xmin>
+			<xmax>686</xmax>
+			<ymin>130</ymin>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+</annotation>

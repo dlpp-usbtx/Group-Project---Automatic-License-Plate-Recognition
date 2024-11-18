@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>32-cdmx2016dem_jpg.rf.6a083183ca871689b71ed30f4fdc3d29.jpg</filename>
+	<path>32-cdmx2016dem_jpg.rf.6a083183ca871689b71ed30f4fdc3d29.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>125</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>7</xmin>
+			<xmax>246</xmax>
+			<ymin>6</ymin>
+			<ymax>122</ymax>
+		</bndbox>
+	</object>
+</annotation>
