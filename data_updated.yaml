@@ -1,0 +1,6 @@
+train: yolov5/data_images_updated/train
+val: yolov5/data_images_updated/test
+nc: 1
+names: [
+    'license_plate'
+]
