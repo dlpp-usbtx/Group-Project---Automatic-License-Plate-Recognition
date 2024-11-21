@@ -80,15 +80,15 @@ def OCR(path, filename):
       blur = cv2.GaussianBlur(gray, (3,3), 0)
       thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
 
-      # # Morph open to remove noise and invert image
-      # kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3,3))
-      # opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel, iterations=1)
-      # invert = 255 - opening
+      # Morph open to remove noise and invert image
+      kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3,3))
+      opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel, iterations=1)
+      invert = 255 - opening
 
       cv2.imwrite(
           'WebbApp/static/roi/{}'.format(filename), roi_bgr)
 
-      text = pt.image_to_string(thresh, lang='eng', config='--psm 6')
+      text = pt.image_to_string(invert, lang='eng', config='--psm 6')
       final_text += text.strip() + ";" +"\n"
     print(final_text)
     save_text(filename, final_text)
